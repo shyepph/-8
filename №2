@@ -1,0 +1,6 @@
+for i in range(10):
+    if int(input("Введите число: ")) % 2 != 0:
+        print ("NO")
+        break
+    else:
+        print ("YES")
